@@ -1,0 +1,1 @@
+package com.koso.triplogger.modeldata class DataSet(val milisecfromstart: Long, val items: List<Data<Any>>)

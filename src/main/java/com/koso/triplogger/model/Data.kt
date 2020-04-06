@@ -1,0 +1,1 @@
+package com.koso.triplogger.modeldata class Data<T>(val name: String, val value: T)
