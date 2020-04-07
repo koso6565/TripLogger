@@ -1,1 +1,1 @@
-package com.koso.triplogger.modeldata class Trip(    val starttime: Long,    val endtime: Long,    val nodes: DataSet)
+package com.koso.triplogger.modelimport com.squareup.moshi.JsonClass@JsonClass(generateAdapter = true)data class Trip(    val starttime: Long,    val endtime: Long,    val nodes: List<DataSet>)
