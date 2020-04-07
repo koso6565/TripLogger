@@ -1,0 +1,1 @@
+package com.koso.triplogger.dbimport androidx.room.Dao@Daointerface TripRawDao {}
