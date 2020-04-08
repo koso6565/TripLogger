@@ -1,1 +1,1 @@
-package com.koso.triplogger.dbimport androidx.lifecycle.LiveDataclass TripRepository(private val dao: TripRawDao) {    val allTrips: LiveData<List<TripRaw>> = dao.getAll()    suspend fun insert(trip: TripRaw) {        dao.insert(trip)    }}
+package com.koso.triplogger.dbimport androidx.lifecycle.LiveDataclass TripRepository(private val dao: TripRawDao) {    val allTrips: LiveData<List<TripRaw>> = dao.getAllLiveData()    suspend fun getAllSuspend() = dao.getAllSuspend()    suspend fun insert(trip: TripRaw) {        dao.insert(trip)    }}
