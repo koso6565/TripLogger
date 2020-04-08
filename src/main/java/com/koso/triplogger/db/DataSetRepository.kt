@@ -1,0 +1,1 @@
+package com.koso.triplogger.dbimport androidx.lifecycle.LiveDataclass DataSetRepository(private val dao: DataSetRawDao) {    val allDataSet: LiveData<List<DataSetRaw>> = dao.getAll()    suspend fun insert(dataset: DataSetRaw) {        dao.insert(dataset)    }}
