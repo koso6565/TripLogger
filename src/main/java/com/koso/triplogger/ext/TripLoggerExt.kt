@@ -1,0 +1,1 @@
+package com.koso.triplogger.extimport com.koso.triplogger.ObservableDatafun ArrayList<ObservableData>.containsObsData(obsData: ObservableData): Boolean{    for(item in this){        if(item.name() == obsData.name()){            return true        }    }    return false}
