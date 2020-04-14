@@ -1,1 +1,1 @@
-package com.koso.triploggerinterface ObservableData {    fun name(): String    fun value(): Any}
+package com.koso.triploggerinterface ObservableData {    fun name(): String    fun value(): Any?}

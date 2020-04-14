@@ -1,1 +1,1 @@
-package com.koso.triplogger.modelimport com.squareup.moshi.JsonClass@JsonClass(generateAdapter = true)data class DataSet(val milisecfromstart: Long, val items: Map<String, Any>)
+package com.koso.triplogger.modelimport com.squareup.moshi.JsonClass@JsonClass(generateAdapter = true)data class DataSet(val milisecfromstart: Long, val items: Map<String, Any?>)
