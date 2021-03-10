@@ -1,1 +1,1 @@
-package com.koso.triplogger.modelimport com.squareup.moshi.JsonClass@JsonClass(generateAdapter = true)data class DataSet(val items: Map<String, Any?>, val timestamp: Long)
+package com.koso.triplogger.modelimport androidx.annotation.Keepimport com.squareup.moshi.JsonClass@Keep@JsonClass(generateAdapter = true)data class DataSet(val items: Map<String, Any?>, val timestamp: Long)
