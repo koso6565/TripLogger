@@ -1,1 +1,1 @@
-package com.koso.triplogger.modeldata class DataSet(val milisecfromstart: Long, val items: Map<String, Any?>)
+package com.koso.triplogger.modelimport androidx.annotation.Keep@Keepdata class DataSet(val milisecfromstart: Long, val items: Map<String, Any?>)
